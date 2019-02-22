@@ -4,7 +4,6 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.5.RELEASE")
-        classpath "io.spring.gradle:dependency-management-plugin:0.5.1.RELEASE"
     }
 }
 
@@ -25,7 +24,7 @@ ext {
 }
 
 dependencies {
-//    implementation 'org.springframework.cloud:spring-cloud-starter-eureka-server'
+    implementation 'org.springframework.cloud:spring-cloud-starter-eureka-server'
     implementation 'org.springframework.cloud:spring-cloud-config-server'
 
 }
